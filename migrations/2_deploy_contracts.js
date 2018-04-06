@@ -1,4 +1,4 @@
-var Adoption = artifacts.require("./Adoption.sol");
+var Adoption = artifacts.require("./Adoption");
 
 module.exports = function(deployer) {
   deployer.deploy(Adoption);
